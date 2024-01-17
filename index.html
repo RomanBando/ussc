@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-страница</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <form id="dataForm" method="post">
+            <div class="form-group">
+                <label for="textbox1">Телефонный номер:</label>
+                <input type="tel" class="form-control col-sm-4" id="textbox1" name="textbox1" placeholder="Введите телефон" required>
+                <small id="phoneHelp" class="form-text text-muted">Пример: 1234567</small>
+            </div>
+            <div class="form-group">
+                <label for="textbox2">Другое поле:</label>
+                <textarea class="form-control col-sm-4" id="textbox2" name="textbox2" rows="2" placeholder="Введите текст" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Сохранить данные</button>
+        </form>
+    </div>  
+    
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
